@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+:root {
+	--white: white;
+	--slate-300: hsl(212, 45%, 89%);
+	--slate-500: hsl(220, 15%, 55%);
+	--slate-900: hsl(218, 44%, 22%);
+}
+
+@keyframes blurIn {
+	0% {
+		-webkit-filter: blur(100px);
+		filter: blur(100px);
+	}
+	100% {
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+	}
+}
+
+html {
+	font-family: "Outfit", "Verdana", serif;
+	background-color: var(--slate-300);
+	border-radius: 0px;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	animation: 0.5s 0s 1 blurIn;
+	width: 275px;
+	height: fit-content;
+	background-color: var(--white);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin: auto auto;
+	text-align: center;
+	box-shadow: 17px 5px 11px var(--slate-300);
+}
+
+h1 {
+	font-weight: 700;
+	color: var(--slate-900);
+	font-size: 1.3rem;
+	margin: 1rem;
+}
+
+p {
+	font-weight: 400;
+	color: var(--slate-500);
+	font-size: 15px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+}
