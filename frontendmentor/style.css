@@ -1,0 +1,43 @@
+/** {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+*/
+
+html {
+}
+
+body {
+	height: 100%;
+}
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
+
+figure {
+	width: 90%;
+	margin: auto;
+}
+
+img {
+	object-fit: contain;
+	height: auto;
+	width: 100%;
+}
+
+.wide {
+	/* 	max-width: 50%; */
+	/* 	width: auto; */
+	/* 	height: 100%; */
+}
+
+.tall {
+}
+
+figcaption {
+}
